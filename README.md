@@ -2,7 +2,6 @@
 # Trainin Content
 
 # 1.0 Installation
-
 ## 1.1 Install NodeJS 21
 
 Download **Node.js** from [Link Text](https://nodejs.org/en/download)
@@ -28,3 +27,20 @@ Follow the instruction to setup your VSCode
 
 **Part 3:** 
 1. Go to extension for find GitHub copilot and install it. It will be very useful when you are coding.
+
+## 1.3 Install Git Bash and Setup SSH
+Download **Git Bash** from [Link Text](https://git-scm.com/install/windows)
+
+1. Open **Git Bash** (Please note that git bash command need to include the double quote “” for cd “path”, or any strings)
+2. Add new SSH key to the laptop follow the guideline until **Adding your SSH key to the ssh-agent**,  [Link Text](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
+- Paste the text in git bash, "ssh-keygen -t ed25519 -C "your_email@example.com"", keep press "Enter" until the end. *Don’t need to key in any password
+- Copy the ssh key inside the file using this command, "clip < ~/.ssh/id_ed25519.pub" or simply open the id_ed25519.pub file and copy
+-  Add the SSH key into GitHub settings > SSH and GPG keys
+-  cd to the folder that you want to clone the project at. The commands in gitbash will be something like this cd "C:\Users\FEWJJASON.SLAKE\Desktop\Debi"
+-  **In VSCode terminal**, Clone the project, by running command git clone git@github.com:fermion-labs/debi-app.git in terminal  
+
+## 1.4 Install DBeaver
+Download **DBeaver** from [Link Text](https://dbeaver.io/download/)
+
+1. Open DBeaver, 
