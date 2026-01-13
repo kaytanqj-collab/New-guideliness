@@ -43,4 +43,8 @@ Download **Git Bash** from [Link Text](https://git-scm.com/install/windows)
 ## 1.4 Install DBeaver
 Download **DBeaver** from [Link Text](https://dbeaver.io/download/)
 
-1. Open DBeaver, 
+1. Open DBeaver, click **Database** -> **New Database Connection** -> **MariaDB**
+2. Fill in the **Server Host, Username, Password** from AWS
+
+# 2.0 Install TestFlight, DEBI
+1. In TestFlight, Download DEBI SIT and Gain access from senior
