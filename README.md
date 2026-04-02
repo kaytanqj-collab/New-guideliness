@@ -7,6 +7,10 @@
 Download **Node.js** from [Link Text](https://nodejs.org/en/download)
 Select the **v21.7.3** version before download
 
+setup frontend
+npx tsx scripts/your-script.ts
+npx prisma generate
+
 ## 1.2 Install VSCode
 
 Download **Visual Studio Code** from [Link Text](https://code.visualstudio.com/download)
