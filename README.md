@@ -9,6 +9,7 @@ Select the **v21.7.3** version before download
 
 setup frontend
 npx tsx scripts/your-script.ts
+
 npx prisma generate
 
 ## 1.2 Install VSCode
